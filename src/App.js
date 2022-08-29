@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import "./App.css";
+import NavigationBar from "./components/NavigationBar/NavigationBar";
+import HeaderView from "./components/HeaderView/HeaderView";
+import ServiceSection from "./components/ServicesSection/ServiceSection";  
 function App() {
+  const [theme, setTheme] = useState('theme' ? 'dark' : 'light') 
+console.log(theme)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={`${theme} App`}  >
+
+      <NavigationBar theme={theme} setTheme={setTheme}  />
+      <header className={`${theme} header`}>
+      <HeaderView className="img"/>
       </header>
-    </div>
+      <ServiceSection/>
+      {/* portfolio */}
+      {/* about me */}
+      {/* contact me */}
+       </div>
   );
 }
 

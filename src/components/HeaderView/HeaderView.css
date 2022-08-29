@@ -1,0 +1,12 @@
+.header-content {
+    padding-left: 125px;
+    padding-top: 200px;
+}
+
+.header-content h2, p{
+color:aliceblue
+}
+
+.header-content h2 {
+    font-size: 98px;
+}

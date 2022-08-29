@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    list-style: none;
+    color: aliceblue;
+}
+
+li {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div.dark.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#30343B;
+}
+
+div.light.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#dfdfdf;
+    
+}
+
+ul.light.navbar-nav {
+    color: #30343B;
+}
+
