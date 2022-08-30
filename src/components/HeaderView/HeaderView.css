@@ -3,10 +3,27 @@
     padding-top: 200px;
 }
 
-.header-content h2, p{
-color:aliceblue
+button.header-button {
+    margin-right: 20px;
 }
 
 .header-content h2 {
-    font-size: 98px;
+    font-size: 120px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:#30343B;
+}
+
+.header-content p {
+        margin-bottom: 30px;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 600;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color:#30343B;
+        opacity: 0.7;
+    
 }

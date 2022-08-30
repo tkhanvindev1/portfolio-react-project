@@ -10,11 +10,11 @@ const ServiceSection = () => {
   return (
     <div className="services-container">
       <div className="text-center">
-        <h2>SERVICES</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 data-aos="fade-up">SERVICES</h2>
+        <h3 data-aos="fade-left">Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
       <div className="services-list">
-        <div className="row">
+        <div className="service row">
           {services.map(function (service) {
             const { id, img, label, text } = service;
             return (

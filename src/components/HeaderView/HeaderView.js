@@ -6,13 +6,13 @@ const HeaderView = () => {
   return (
     <div className="header-content">
       <h2>Let's start <br></br>something big <br></br>together</h2>
-      <p>
+      <p data-aos="fade-left">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-        ipsum augue, tincidunt ut arcu id, venenatis efficitur leo
+        ipsum augue,<br></br> tincidunt ut arcu id, venenatis efficitur leo
       </p>
       <div className="buttons">
-        <button>ABOUT ME</button>
-        <button>CONTACT</button>
+        <button className="header-button">ABOUT ME</button>
+        <button className="header-button">CONTACT</button>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ ul {
     justify-content:flex-end;
     list-style: none;
     color: aliceblue;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 li {
@@ -28,5 +29,7 @@ div.light.container {
 
 ul.light.navbar-nav {
     color: #30343B;
+    
+    
 }
 
