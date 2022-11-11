@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="contact-container">
         <div className="text-center">
         <h2 data-aos="fade-up">CONTACT ME</h2>
-        <h3 data-aos="fade-left">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h3 data-aos="fade-left">Let me know how i can assist you. Let's connect.</h3>
       </div>
       <div className="form-div">
       <form>
@@ -15,6 +15,9 @@ const ContactSection = () => {
         <input placeholder="Your Email"/>
         <input placeholder="Your Phone"/>
         <textarea placeholder="Your Message"/>
+        <label className="submitBtn-container">
+        <button className="submitBtn">Submit</button>
+        </label>
       </form>
       </div>
       </div>  

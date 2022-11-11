@@ -1,27 +1,34 @@
-import React, { useState } from "react";
-import "./App.css";
+// import React, { useRef, useState } from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import HeaderView from "./components/HeaderView/HeaderView";
-import ServiceSection from "./components/ServicesSection/ServiceSection";
-import PortfolioSection from "./components/Portfolio/Portfolio";
-import AboutSection from "./components/AboutSection/AboutSection";  
-import ContactSection from "./components/contactSection/ContactSection";
+import Path from "./components/Path/Path"
+import Portfolio from "./components/Portfolio/Portfolio";
+import "./App.css"
+
+
 
 
 function App() {
-  const [theme, setTheme] = useState('theme' ? 'dark' : 'light') 
-console.log(theme)
-  return (
-    <div className={`${theme} App`}  >
+  // const [theme, setTheme] = useState('theme' ? 'dark' : 'light') 
 
-      <NavigationBar theme={theme} setTheme={setTheme}  />
-      <header className={`${theme} header`}>
-      <HeaderView className="img"/>
+  // const home = useRef(null)
+  // const about = useRef(null)
+  // const portfolio = useRef(null)
+  // const contact = useRef(null)
+
+
+  
+  return (
+    <div className="App">
+
+      <NavigationBar />
+      <header>
+      <HeaderView/>
       </header>
-      <AboutSection/>
-      <ServiceSection/>
-      <PortfolioSection/>
-      <ContactSection/>
+      <Path/>
+      <Portfolio/>
+    
+     
        </div>
   );
 }

@@ -1,35 +1,43 @@
-ul {
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    list-style: none;
-    color: aliceblue;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono&family=Ubuntu&display=swap');
 
-li {
+
+.navbar-div {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
     padding-left: 100px;
     padding-right: 100px;
+    background-color:rgba(53, 51, 67, 1);
+    border-bottom: 2px solid rgba(138, 180, 248, 1);
 }
 
-div.dark.container {
-    display: flex;
+.navbar-div ul {
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color:#30343B;
+    justify-content: space-evenly;
 }
 
-div.light.container {
+.navbar-div ul a{
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 200px;
+    font-size: 32px;
+    padding: 50px;
+    text-decoration-line: none;
+}
+
+div #logo-div{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color:#dfdfdf;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    margin-left: 200px;
     
 }
 
-ul.light.navbar-nav {
-    color: #30343B;
-    
-    
+div #logo{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 350px;
 }
-

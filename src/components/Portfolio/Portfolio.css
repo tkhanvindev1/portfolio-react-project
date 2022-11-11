@@ -1,0 +1,52 @@
+#portfolio{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+.text-center{
+    display: flex;
+    flex-direction:column;      
+}
+.text-center h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color:rgba(138, 180, 248, 1)
+}
+
+.row{
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.row .column {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 3px 3px;
+    background-color:aliceblue;
+    margin: 50px;
+}
+
+.portfolio-link img{
+    width: 700px;
+}
+
+.portfolio-caption{
+    margin: 20px;
+}
+
+.portfolio-caption .portfolio-caption-heading{
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+.portfolio-caption .portfolio-caption-subhead{
+    font-size: 24px;
+    margin-bottom: 40px;
+}

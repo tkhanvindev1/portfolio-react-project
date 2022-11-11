@@ -14,12 +14,12 @@ const services = [
 const ServiceSection = () => {
   return (
     <div className="services-container">
-      <div className="text-center">
+      <div className="text">
         <h2 data-aos="fade-up">TECHNOLOGIES</h2>
-        <h3 data-aos="fade-left">developed profesional skills with</h3>
+        <h3 data-aos="fade-left">I'VE BEEN WORKING WITH:</h3>
       </div>
       <div className="services-list">
-        <div className="service row">
+        <div data-aos="fade-up" className="service row">
           {services.map(function (service) {
             const { id, img } = service;
             return (
